@@ -127,3 +127,15 @@ border-radius: 6px;
 .header-right img{
  width: 100%;
 }
+/* company section */
+.company-section{
+    text-align: center;
+}
+.logos{
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+.logos img{
+    height:46px;
+}
