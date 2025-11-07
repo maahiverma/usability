@@ -178,3 +178,28 @@ ul {
 .feature-img img{
     width: ;
 }
+.feature-desc{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  align-content: center;
+
+
+}
+/* example section */
+.example-area{
+   justify-content: center;
+   gap: 30px;
+}
+.example-card{
+    flex-direction: column;
+    width: 23%;
+    background-color: black;
+    color: white !important;
+    justify-content: end;
+    padding: 25px;
+    transition: 0.2s ease-out;
+}
+.example-card:hover{
+  box-shadow: 0 0 10px #888;
+}
